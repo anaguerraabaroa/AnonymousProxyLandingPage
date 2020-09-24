@@ -1,0 +1,23 @@
+.main-reasons {
+  height: 624px;
+  background-color: pink;
+}
+
+.main-reasons-wrapper {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(8, 1fr);
+  text-align: center;
+  @media all and (min-width: 768px) {
+    grid-template-columns: 3;
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+.main-reasons-title {
+  grid-column: 1 / 4;
+}
+
+.main-reasons-button {
+  grid-column: 2 / 3;
+}
