@@ -1,18 +1,49 @@
 .hero {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  width: 100%;
   height: 100vh;
-  background-color: yellow;
+  background: url("../images/cover2.jpg") center center no-repeat;
+  background-size: cover;
 }
 
-.hero-title-inner {
-  display: block;
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 50vh;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  font-size: 42px;
+  line-height: 1.31;
+  text-transform: uppercase;
+}
+
+.hero-subtitle {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  position: relative;
+  top: 2vh;
 }
 
 .hero-icon {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #ffffff;
+  position: relative;
+  top: 10vh;
 }
