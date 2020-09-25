@@ -38,6 +38,7 @@
   font-family: "Roboto Slab", serif;
   font-size: 24px;
   line-height: 1.25;
+  text-transform: capitalize;
   color: #000000;
   @media all and (min-width: 768px) {
     width: 690px;
@@ -84,6 +85,7 @@
   font-weight: 500;
   line-height: 2.25;
   color: #f26002;
+  text-decoration: none;
   transition: background-color ease 1s, color ease 1s;
   @media all and (min-width: 768px) {
     width: 91px;
