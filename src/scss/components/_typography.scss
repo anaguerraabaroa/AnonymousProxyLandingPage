@@ -7,6 +7,8 @@ body {
   text-align: $text-align;
 }
 
+/* font-size and line-height blend */
+
 .txt--xs {
   font-size: 14px;
   line-height: 2.14;
@@ -70,8 +72,10 @@ body {
   }
 }
 
+/* font-color */
+
 .txt--base {
-  color: $color-brand-8;
+  color: $color-brand-7;
 }
 
 .txt--light {
@@ -79,21 +83,22 @@ body {
 }
 
 .txt--dark {
-  color: $color-brand-6;
+  color: $color-brand-5;
 }
+
+/* font-weight */
 
 .txt--weight {
   font-weight: $font-weight;
 }
 
-.txt--title {
-  font-family: $font-family-title;
-  font-weight: bold;
-}
+/* text-align */
 
 .txt--center {
   text-align: $text-align;
 }
+
+/* text-transform */
 
 .uppercase {
   text-transform: uppercase;
@@ -101,4 +106,15 @@ body {
 
 .capitalize {
   text-transform: capitalize;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* font-family and weight blend */
+
+.txt--title {
+  font-family: $font-family-title;
+  font-weight: bold;
 }
