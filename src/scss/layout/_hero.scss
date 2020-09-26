@@ -1,20 +1,17 @@
 .hero {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  padding: 284px 15px 53px;
+  justify-content: flex-end;
   align-items: center;
-  background: url("../images/cover_mobile.jpg") center center no-repeat;
+  padding: 284px 15px 53px;
+  background: url("../images/cover.jpg") center center no-repeat;
   background-size: cover;
   @media all and (min-width: 768px) {
     padding: 384px 39px 45px;
-    background: url("../images/cover_tablet.jpg") center center no-repeat;
-    background-size: cover;
   }
   @media all and (min-width: 1200px) {
     padding: 384px 275px 13px;
-    background: url("../images/cover_desktop.jpg") top center no-repeat;
-    background-size: cover;
   }
 }
 
