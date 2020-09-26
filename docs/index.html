@@ -12,24 +12,27 @@
   </head>
   <body>
     <header class="header" id="#top">
-      <a href="https://adalab.es/" target="_blank">
-        <img
-          class="header-icon-menu"
-          src="./assets/images/ico-menu.svg"
-          alt="Hamburguer navigation menu"
-          title="Hamburguer navigation menu"
-        />
-      </a>
+      <nav class="header-menu" role="navigation">
+        <a href="https://adalab.es/" target="_blank">
+          <img
+            src="./assets/images/ico-menu.svg"
+            alt="Hamburguer navigation menu"
+            title="Hamburguer navigation menu"
+          />
+        </a>
+      </nav>
     </header>
 
-    <main>
-      <section class="hero">
-        <h1 class="hero-title">
-          <span class="hero-title-inner">Anonymous</span>
-          <span class="hero-title-inner">Proxy</span>
+    <main role="main">
+      <section class="hero" role="banner">
+        <h1 class="hero_title txt--title txt--xxl txt--light text--center uppercase">
+          <span>Anonymous</span>
+          <span>Proxy</span>
         </h1>
-        <p class="hero-subtitle">In hac habitasse platea dictumst</p>
-        <div class="hero-icon">
+        <p class="hero_subtitle txt--light text--center">
+          In hac habitasse platea dictumst
+        </p>
+        <div class="hero_button">
           <a href="./index.html#main-reasons">
             <img
               src="./assets/images/ico-scroll-down.svg"
@@ -40,59 +43,93 @@
         </div>
       </section>
 
-      <section class="main-tips">
-        <h2 class="main-tips-title">Insomnia Tips</h2>
-        <h3 class="main-tips-article-title">Looking through a window</h3>
-        <p class="main-tips-article-text">
+      <section class="main_tips" role="contentinfo">
+        <h2 class="main-tips_title txt--xs txt--weight">Insomnia Tips</h2>
+        <h3 class="main-tips_article-title txt--title txt--xl txt--dark capitalize">
+          Looking through a window
+        </h3>
+        <p class="main-tips_article-text txt--md-1 txt--weight txt--base">
           Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
           luctus ex diam nec lectus.Vivamus semper sodales rutrum.
         </p>
-        <a href="https://adalab.es/" title="Go to tips" target="_blank"
-          ><input class="main-tips-button" type="button" value="Go"
+        <a href="https://adalab.es/" target="_blank" title="Go to tips"
+          ><input
+            class="main-tips_button txt--lg txt--weight txt--center"
+            type="button"
+            value="Go"
+            aria-label="Go"
         /></a>
       </section>
 
-      <section class="main-reasons" id="main-reasons">
-        <div class="page-wrapper">
-          <h4 class="main-reasons-title">3 reasons to purchase</h4>
-          <div class="main-reasons-wrapper">
-            <div class="article-1">
-              <article class="main-reasons-article">
-                <h5 class="main-reasons-article-title" id="#reasons">Ut sed metus</h5>
-                <p class="main-reasons-article-text">Lorem ipsum dolor sit amet, consecteur.</p>
-              </article>
+      <section class="main-reasons" id="main-reasons" role="complementary">
+        <h4
+          class="main-reasons_title txt--title txt--xl txt--dark txt--center capitalize"
+        >
+          3 reasons to purchase
+        </h4>
+        <div class="main-reasons_wrapper txt--center">
+          <div class="main-reasons_article-1">
+            <article class="main-reasons_article">
+              <h5
+                class="main-reasons_article-title txt--title txt--md-2 txt--dark txt--center"
+                id="#reasons"
+              >
+                Ut sed metus
+              </h5>
+              <p
+                class="main-reasons_article-text txt--md-2 txt--weight txt--dark txt--center"
+              >
+                Lorem ipsum dolor sit amet, consecteur.
+              </p>
+            </article>
 
-            </div>
-            <div class="article-2">
-              <article class="main-reasons-article">
-                <h5 class="main-reasons-article-title" id="#reasons">Curabitur ac erat</h5>
-                <p class="main-reasons-article-text">Mauris mattis urna quis lorem molestie.</p>
-              </article>
-
-            </div>
-            <div class="article-3">
-              <article class="main-reasons-article">
-                <h5 class="main-reasons-article-title" id="#reasons">Morbi dictum</h5>
-                <p class="main-reasons-article-text">Aliquam in dolor et dolor tincidunt.</p>
-              </article>
-
-            </div>
           </div>
-          <div class="main-reasons-button-container">
-            <a
-              href="https://adalab.es/"
-              title="Go to reasons to purchase"
-              target="_blank"
-              ><input class="main-reasons-button" type="button" value="More reasons"
-            /></a>
+          <div class="main-reasons_article-2">
+            <article class="main-reasons_article">
+              <h5
+                class="main-reasons_article-title txt--title txt--md-2 txt--dark txt--center"
+                id="#reasons"
+              >
+                Curabitur ac erat
+              </h5>
+              <p
+                class="main-reasons_article-text txt--md-2 txt--weight txt--dark txt--center"
+              >
+                Mauris mattis urna quis lorem molestie.
+              </p>
+            </article>
+
+          </div>
+          <div class="main-reasons_article-3">
+            <article class="main-reasons_article">
+              <h5
+                class="main-reasons_article-title txt--title txt--md-2 txt--dark txt--center"
+                id="#reasons"
+              >
+                Morbi dictum
+              </h5>
+              <p
+                class="main-reasons_article-text txt--md-2 txt--weight txt--dark txt--center"
+              >
+                Aliquam in dolor et dolor tincidunt.
+              </p>
+            </article>
+
           </div>
         </div>
+        <a href="https://adalab.es/" target="_blank" title="Go to reasons to purchase"
+          ><input
+            class="main-reasons_button txt--lg txt--weight txt--light txt--center capitalize"
+            type="button"
+            value="More reasons"
+            aria-label="More reasons"
+        /></a>
       </section>
 
     </main>
 
-    <footer class="footer">
-      <div class="footer-icon">
+    <footer class="footer" role="contentinfo">
+      <div class="footer_button">
         <a href="./index.html#top">
           <img
             src="./assets/images/ico-arrow.svg"
@@ -101,83 +138,91 @@
           />
         </a>
       </div>
-      <div class="footer-wrapper">
+      <div class="footer_wrapper">
         <nav>
-          <ul class="footer-sections-list">
-            <li class="footer-sections-list-item">
+          <ul class="footer_list">
+            <li class="footer_list-sections">
               <a
-                class="footer-sections-list-item-link"
+                class="footer_list-sections-link txt--sm txt--weight txt--light txt--center uppercase"
                 href="https://adalab.es/"
                 target="_blank"
+                title="Go to articles of interest"
                 >Articles</a
               >
             </li>
-            <li class="footer-sections-list-item">
+            <li class="footer_list-sections">
               <a
-                class="footer-sections-list-item-link"
+                class="footer_list-sections-link txt--sm txt--weight txt--light txt--center uppercase"
                 href="https://adalab.es/"
                 target="_blank"
+                title="Go to recommended books"
                 >Books</a
               >
             </li>
-            <li class="footer-sections-list-item">
+            <li class="footer_list-sections">
               <a
-                class="footer-sections-list-item-link"
+                class="footer_list-sections-link txt--sm txt--weight txt--light txt--center uppercase"
                 href="https://adalab.es/"
                 target="_blank"
+                title="Go to events of interest"
                 >Events</a
               >
             </li>
-            <li class="footer-sections-list-item">
+            <li class="footer_list-sections">
               <a
-                class="footer-sections-list-item-link"
+                class="footer_list-sections-link txt--sm txt--weight txt--light txt--center uppercase"
                 href="https://adalab.es/"
                 target="_blank"
+                title="Go to reasons to purchase"
                 >Reasons</a
               >
             </li>
-            <li class="footer-sections-list-item">
+            <li class="footer_list-sections">
               <a
-                class="footer-sections-list-item-link"
+                class="footer_list-sections-link txt--sm txt--weight txt--light txt--center uppercase"
                 href="https://adalab.es/"
                 target="_blank"
+                title="Go to our tips"
                 >Tips</a
               >
             </li>
           </ul>
         </nav>
         <nav>
-          <ul class="footer-social-list">
-            <li class="footer-social-list-item">
+          <ul class="footer_list">
+            <li class="footer_list-social">
               <a
-                class="footer-social-list-item-link"
+                class="footer_list-social-link txt--sm txt--weight txt--light txt--center uppercase"
                 href="https://twitter.com/Adalab_Digital"
                 target="_blank"
+                title="Contact with us on twitter"
                 >Twitter</a
               >
             </li>
-            <li class="footer-social-list-item">
+            <li class="footer_list-social">
               <a
-                class="footer-social-list-item-link"
+                class="footer_list-social-link txt--sm txt--weight txt--light txt--center uppercase"
                 href="https://www.instagram.com/adalab_digital/"
                 target="_blank"
+                title="Contact with us on Instagram"
                 >Instagram</a
               >
             </li>
-            <li class="footer-social-list-item">
+            <li class="footer_list-social">
               <a
-                class="footer-social-list-item-link"
+                class="footer_list-social-link txt--sm txt--weight txt--light txt--center uppercase"
                 href="https://adalab.es/"
                 target="_blank"
+                title="Contact with us on Mastodon Social"
                 >Mastodon Social</a
               >
             </li>
           </ul>
         </nav>
-        <small class="footer-copy">
-          <span class="footer-copy-inner">&copy2017</span>
-          <span class="footer-copy-inner"
-            >we<span class="footer-heart">&#10084</span>components</span
+        <small class="footer_copy txt--xs txt--weight txt--light txt--center">
+          <span class="footer_copy-inner">&copy2017</span>
+          <span class="footer_copy-inner"
+            >We<span class="footer_icon txt--xs txt--weight txt--center">&#10084</span>components</span
           >
         </small>
       </div>
