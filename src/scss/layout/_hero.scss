@@ -2,11 +2,9 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 284px 15px 53px;
   background: url("../images/cover.jpg") center center no-repeat;
   background-size: cover;
+  padding: 284px 15px 53px;
   @media all and (min-width: 768px) {
     padding: 384px 39px 45px;
   }
@@ -15,15 +13,25 @@
   }
 }
 
+.hero_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .hero_title {
+  max-width: 290px;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   @media all and (min-width: 768px) {
+    max-width: 690px;
     margin-bottom: 20px;
   }
   @media all and (min-width: 1200px) {
+    max-width: 730px;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     margin-bottom: 0;
   }
