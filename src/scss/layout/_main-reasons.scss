@@ -1,166 +1,137 @@
-// .main-reasons {
-//   height: 624px;
-//   padding: 30px 0 60px 0;
-//   background-color: #eff9ff;
-//   @media all and (min-width: 1200px) {
-//     padding-top: 60px;
-//   }
-// }
+.main-reasons {
+  padding: 30px 15px 60px 15px;
+  background-color: #eff9ff;
+  @media all and (min-width: 1200px) {
+    padding-top: 60px;
+  }
+}
 
-// .main-reasons-wrapper {
-//   display: grid;
-//   grid-template-columns: 1;
-//   grid-template-rows: repeat(8, 1fr);
-//   text-align: center;
-//   @media all and (min-width: 768px) {
-//     grid-template-columns: 3;
-//     grid-template-rows: repeat(3, 1fr);
-//   }
-// }
+.main-reasons-title {
+  margin-bottom: 45px;
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  line-height: 1.25;
+  position: relative;
+  text-transform: capitalize;
+  color: #000000;
+  text-align: center;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.73;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 32px;
+    line-height: 1.41;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 32px;
+    line-height: 1.41;
+  }
+}
 
-// .main-reasons-title {
-//   grid-column: 1 / 2;
-//   width: 290px;
-//   height: 30px;
-//   margin-bottom: 45px;
-//   justify-self: center;
-//   font-family: "Roboto Slab", serif;
-//   font-size: 24px;
-//   line-height: 1.25;
-//   text-transform: capitalize;
-//   color: #000000;
-//   @media all and (min-width: 768px) {
-//     grid-column: 1 / 4;
-//     width: 450px;
-//     height: 45px;
-//     font-size: 26px;
-//     line-height: 1.73;
-//   }
-//   @media all and (min-width: 1200px) {
-//     width: 730px;
-//     font-size: 32px;
-//     line-height: 1.41;
-//   }
-// }
+.main-reasons-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  text-align: center;
+  @media all and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
 
-// .main-reasons-article {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-// }
+.main-reasons-article {
+  max-width: 180px;
+  margin-bottom: 45px;
+  margin: auto;
+  @media all and (min-width: 768px) {
+    max-width: 210px;
+  }
+  @media all and (min-width: 1200px) {
+    max-width: 350px;
+    margin-right: 26.3px;
+  }
+}
 
-// .main-reasons-article-title {
-//   width: 184px;
-//   height: 30px;
-//   margin: 0 53px;
-//   font-family: "Roboto Slab", serif;
-//   font-size: 18px;
-//   line-height: 1.67;
-//   color: #000000;
-//   @media all and (min-width: 768px) {
-//     width: 210px;
-//     font-size: 24px;
-//     line-height: 1.25;
-//     margin-bottom: 14px;
-//   }
-//   @media all and (min-width: 1200px) {
-//     width: 350px;
-//     font-size: 24px;
-//     line-height: 1.25;
-//   }
-// }
+.article-1 {
+  grid-row: 1 / 2;
+  @media all and (min-width: 768px) {
+    grid-row: 1 / 2;
+  }
+}
 
-// .title-1 {
-//   @media all and (min-width: 768px) {
-//     margin-left: 1px;
-//   }
-//   @media all and (min-width: 1200px) {
-//     margin-left: 1px;
-//   }
-// }
+.article-2 {
+  grid-row: 2 / 3;
+  @media all and (min-width: 768px) {
+    grid-row: 1 / 2;
+  }
+}
 
-// .title-2 {
-//   @media all and (min-width: 768px) {
-//     margin: 0 30px;
-//   }
-// }
+.article-3 {
+  grid-row: 3 / 4;
+  @media all and (min-width: 768px) {
+    grid-row: 1 / 2;
+  }
+}
 
-// .title-3 {
-//   @media all and (min-width: 768px) {
-//     margin-right: 1px;
-//   }
-// }
+.main-reasons-article-title {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #000000;
+  margin-bottom: 2px;
+  @media all and (min-width: 768px) {
+    line-height: 1.25;
+    margin-bottom: 14px;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-bottom: 14px;
+  }
+}
 
-// .main-reasons-article-text {
-//   width: 180px;
-//   height: 63px;
-//   margin-bottom: 45px;
-//   font-family: "Roboto", sans-serif;
-//   font-size: 18px;
-//   line-height: 1.67;
-//   color: #000000;
-//   @media all and (min-width: 768px) {
-//     width: 212.3px;
-//     height: 68px;
-//     margin-bottom: 60px;
-//     font-size: 20px;
-//     line-height: 1.5;
-//   }
-//   @media all and (min-width: 1200px) {
-//     width: 353.8px;
-//   }
-// }
+.main-reasons-article-text {
+  margin-bottom: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #000000;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+  }
+}
 
-// .text-1 {
-//   @media all and (min-width: 768px) {
-//     margin-left: 3.3px;
-//   }
-// }
+.main-reasons-button-container {
+  text-align: center;
+}
 
-// .text-2 {
-//   @media all and (min-width: 768px) {
-//     margin: 0 27.7px;
-//   }
-//   @media all and (min-width: 1200px) {
-//     margin: 0 26.2px;
-//   }
-// }
+.main-reasons-button {
+  width: 184px;
+  height: 45px;
+  background-color: #f26002;
+  border-radius: 22.5px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color ease 1s, color ease 1s;
+  &:hover {
+    background-color: #ffffff;
+    color: #f26002;
 
-// .text-3 {
-//   @media all and (min-width: 768px) {
-//     margin-right: 1px;
-//   }
-// }
-
-// .main-reasons-button {
-//   grid-column: 1 / 2;
-//   width: 184px;
-//   height: 45px;
-//   background-color: #f26002;
-//   border-radius: 22.5px;
-//   font-family: "Roboto", sans-serif;
-//   font-size: 20px;
-//   font-weight: 500;
-//   line-height: 2.25;
-//   color: #ffffff;
-//   text-decoration: none;
-//   transition: background-color ease 1s, color ease 1s;
-//   @media all and (min-width: 768px) {
-//     width: 124px;
-//     grid-column: 1 / 4;
-//   }
-//   @media all and (min-width: 1200px) {
-//     width: 255px;
-//   }
-
-//   &:hover {
-//     background-color: #ffffff;
-//     color: #f26002;
-
-//     &:active {
-//       background-color: lighten(#f26002, 30%);
-//       opacity: 1;
-//     }
-//   }
-// }
+    &:active {
+      background-color: lighten(#f26002, 20%);
+      opacity: 1;
+    }
+  }
+  @media all and (min-width: 768px) {
+    width: 210px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 255px;
+  }
+}
