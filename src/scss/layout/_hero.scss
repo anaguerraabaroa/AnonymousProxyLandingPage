@@ -1,9 +1,9 @@
 .hero {
-  padding: 284px 15px 53px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   height: 100vh;
+  padding: 284px 15px 53px;
+  align-items: center;
   background: url("../images/cover_mobile.jpg") center center no-repeat;
   background-size: cover;
   @media all and (min-width: 768px) {
@@ -18,43 +18,32 @@
   }
 }
 
-.hero-title {
+.hero_title {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-  text-align: center;
-  color: #ffffff;
-  font-family: "Roboto Slab", serif;
-  font-size: 42px;
-  line-height: 1.31;
-  text-transform: uppercase;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   @media all and (min-width: 768px) {
-    font-size: 80px;
-    line-height: 1.33;
     margin-bottom: 20px;
   }
   @media all and (min-width: 1200px) {
-    font-size: 100px;
-    line-height: 1.32;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     margin-bottom: 0;
   }
 }
 
-.hero-subtitle {
-  text-align: center;
+.hero_subtitle {
   margin-bottom: 45px;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  color: $color-brand-1;
+  font-family: $font-family;
+  font-size: $font-size;
   @media all and (min-width: 768px) {
     font-size: 24px;
     margin-bottom: 30px;
   }
 }
 
-.hero-icon {
+.hero_button {
   display: flex;
   justify-content: center;
   align-items: center;

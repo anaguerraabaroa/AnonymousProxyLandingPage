@@ -1,0 +1,104 @@
+body {
+  font-family: $font-family;
+  font-size: $font-size;
+  color: $font-color-base;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  text-align: $text-align;
+}
+
+.txt--xs {
+  font-size: 14px;
+  line-height: 2.14;
+  @media (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 1.88;
+  }
+}
+
+.txt--sm {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.txt--md-1 {
+  font-size: 18px;
+  line-height: 1.67;
+  @media (min-width: 768px) {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+}
+
+.txt--md-2 {
+  font-size: 18px;
+  line-height: 1.67;
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+
+.txt--lg {
+  font-size: 20px;
+  line-height: 2.25;
+}
+
+.txt--xl {
+  font-size: 24px;
+  line-height: 1.25;
+  @media (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.73;
+  }
+  @media (min-width: 1200px) {
+    font-size: 32px;
+    line-height: 1.41;
+  }
+}
+
+.txt--xxl {
+  font-size: 42px;
+  line-height: 1.31;
+  @media (min-width: 768px) {
+    font-size: 80px;
+    line-height: 1.33;
+  }
+  @media (min-width: 1200px) {
+    font-size: 100px;
+    line-height: 1.32;
+  }
+}
+
+.txt--base {
+  color: $color-brand-8;
+}
+
+.txt--light {
+  color: $color-brand-1;
+}
+
+.txt--dark {
+  color: $color-brand-6;
+}
+
+.txt--weight {
+  font-weight: $font-weight;
+}
+
+.txt--title {
+  font-family: $font-family-title;
+  font-weight: bold;
+}
+
+.txt--center {
+  text-align: $text-align;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
