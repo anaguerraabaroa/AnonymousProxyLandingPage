@@ -21,11 +21,11 @@
 }
 
 .hero_title {
-  max-width: 290px;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  max-width: 290px;
   @media all and (min-width: 768px) {
     max-width: 690px;
     margin-bottom: 20px;
