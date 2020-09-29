@@ -4,12 +4,12 @@
   flex-direction: column;
   background: url("../images/cover.jpg") center center no-repeat;
   background-size: cover;
+  justify-content: flex-end;
 }
 
 .hero_wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: center;
   margin: 284px 15px 53px;
   @media all and (min-width: 768px) {
