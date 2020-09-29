@@ -11,12 +11,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 284px 15px 53px;
+  margin: 284px 15px 53px 15px;
   @media all and (min-width: 768px) {
-    margin: 384px 39px 45px;
+    margin: 384px 39px 45px 39px;
   }
   @media all and (min-width: 1200px) {
-    margin: 384px 275px 13px;
+    margin: 384px 275px 13px 275px;
   }
 }
 
