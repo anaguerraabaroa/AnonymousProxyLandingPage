@@ -35,8 +35,6 @@
 .main-tips_button {
   width: 76px;
   height: 45px;
-  text-decoration: none;
-  color: $color-brand-4;
   border: solid 2px $color-brand-4;
   border-radius: 22.5px;
   background-color: $color-brand-1;
@@ -56,5 +54,10 @@
       background-color: darken($color-brand-4, 30%);
       opacity: 1;
     }
+  }
+
+  .main-tips_link {
+    text-decoration: none;
+    color: $color-brand-4;
   }
 }

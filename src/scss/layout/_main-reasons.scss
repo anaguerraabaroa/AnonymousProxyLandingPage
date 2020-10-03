@@ -68,10 +68,10 @@
 .main-reasons_button {
   width: 184px;
   height: 45px;
+  margin: auto;
   border-radius: 22.5px;
   border: solid 2px $color-brand-4;
   background-color: $color-brand-4;
-  text-decoration: none;
   transition: background-color ease 2s, color ease 2s;
   &:hover {
     background-color: $color-brand-1;
@@ -88,5 +88,9 @@
   @media all and (min-width: 1200px) {
     width: 255px;
     text-transform: capitalize;
+  }
+  .main-reasons_link {
+    text-decoration: none;
+    color: $color-brand-1;
   }
 }
