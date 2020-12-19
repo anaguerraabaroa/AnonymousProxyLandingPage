@@ -27,7 +27,7 @@ Run `npm start` on the terminal.
 This command has to be run everytime the project is started in order to:
 
 1. Open the project on the browser using a local server.
-2. Refresh the browser everytime files contained in `/src` folder are updated.
+2. Refresh browser everytime files contained in `/src` folder are updated.
 3. Compiled files contained in `/src` folder and copy them in `/public` folder in order to be prepared for production environment.
 
 ### **Deployment**
