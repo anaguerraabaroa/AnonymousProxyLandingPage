@@ -27,7 +27,7 @@ Run `npm start` on the terminal.
 This command has to be run everytime the project is started in order to:
 
 1. Open the project on the browser using a local server.
-2. Listen files contained in `/src` folder to refresh the browser everytime they are updated.
+2. Refresh the browser everytime files contained in `/src` folder are updated.
 3. Compiled files contained in `/src` folder and copy them in `/public` folder in order to be prepared for production environment.
 
 ### **Deployment**
@@ -44,7 +44,7 @@ git push
 
 3. Run again commands on step 1 to update changes on the project.
 
-4. Project **[URL](https://anaguerraabaroa.github.io/AnonymousProxyLandingPage/)** is also available on GitHub Pages.
+4. Project **[URL](https://anaguerraabaroa.github.io/Codeflix/)** is also available on GitHub Pages.
 
 ## **Development technologies**
 
