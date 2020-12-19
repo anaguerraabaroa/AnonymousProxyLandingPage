@@ -54,6 +54,7 @@ git push
 
 ## **Exercise development requirements**
 
+- Responsive web design for mobile, tablet and desktop devices
 - Fixed header navigation menu. It is a fake link not a real menu
 - Full screen hero image designed with flexbox
 - Tips section designed with flexbox or CSS grid
