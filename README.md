@@ -1,4 +1,4 @@
-# AnonymousProxyLandingPage
+# **AnonymousProxyLandingPage**
 
 Final Module 1 exercise of the Adalab Digital Frontend Development Bootcamp.
 
