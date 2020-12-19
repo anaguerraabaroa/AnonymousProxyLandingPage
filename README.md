@@ -87,7 +87,10 @@ AnonymousProxyLandingPage
 │   │    ├── cover.jpg
 │   │    ├── ico-arrow.jpg
 │   │    ├── ico-menu.svg
-│   │    └── ico-scroll-down.svg
+│   │    ├── ico-scroll-down.svg
+│   │    ├── landing_desktop.jpg
+│   │    ├── landing_mobile.jpg
+│   │    └── landing_tablet.jpg
 │   └── scss
 │       ├── components
 │       │   └── _typography.scss
