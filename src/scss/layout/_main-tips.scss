@@ -38,7 +38,7 @@
   border: solid 2px $color-brand-4;
   border-radius: 22.5px;
   background-color: $color-brand-1;
-  transition: background-color ease 2s, color ease 2s;
+  transition: background-color ease 2s;
   @media all and (min-width: 768px) {
     width: 91px;
   }
@@ -48,16 +48,17 @@
 
   &:hover {
     background-color: $color-brand-4;
-    color: $color-brand-1;
-
     &:active {
       background-color: darken($color-brand-4, 30%);
       opacity: 1;
     }
   }
+}
 
-  .main-tips_link {
-    text-decoration: none;
-    color: $color-brand-4;
+.main-tips_link {
+  text-decoration: none;
+  color: $color-brand-4;
+  &:hover {
+    color: $color-brand-1;
   }
 }

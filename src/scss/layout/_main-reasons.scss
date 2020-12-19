@@ -72,11 +72,9 @@
   border-radius: 22.5px;
   border: solid 2px $color-brand-4;
   background-color: $color-brand-4;
-  transition: background-color ease 2s, color ease 2s;
+  transition: background-color ease 2s;
   &:hover {
     background-color: $color-brand-1;
-    color: $color-brand-4;
-
     &:active {
       background-color: lighten($color-brand-4, 30%);
       opacity: 1;
@@ -92,5 +90,8 @@
   .main-reasons_link {
     text-decoration: none;
     color: $color-brand-1;
+    &:hover {
+      color: $color-brand-4;
+    }
   }
 }
