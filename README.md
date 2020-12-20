@@ -1,3 +1,5 @@
+![Anonymous Proxy Banner](https://www.bacancytechnology.com/blog/wp-content/uploads/2019/05/Top-10-17-5-2019-Banner-1024x352.jpg)
+
 # **AnonymousProxyLandingPage**
 
 Final Module 1 exercise of the Adalab Digital Frontend Development Bootcamp.
