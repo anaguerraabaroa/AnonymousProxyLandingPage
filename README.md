@@ -4,7 +4,7 @@
 
 Final Module 1 exercise of the Adalab Digital Frontend Development Bootcamp.
 
-This is a responsive landing page developed with `HTML5` , `CSS3` and `SASS`.
+This is a responsive landing page developed with [<img src = "https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">](https://html.spec.whatwg.org/) [<img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white">](https://www.w3.org/Style/CSS/) and [<img src="https://img.shields.io/badge/-Sass-cc6699?style=flat&logo=sass&logoColor=ffffff">](https://sass-lang.com/)
 
 ## **Quick start guide**
 
@@ -47,12 +47,6 @@ git push
 3. Run again commands on step 1 to update changes on the project.
 
 4. Project **[URL](https://anaguerraabaroa.github.io/AnonymousProxyLandingPage/)** is also available on GitHub Pages.
-
-## **Development technologies**
-
-- [**`HTML5`**](https://html.spec.whatwg.org/)
-- [**`CSS3`**](https://www.w3.org/Style/CSS/)
-- [**`SASS`**](https://sass-lang.com/)
 
 ## **Exercise development requirements**
 
