@@ -2,7 +2,7 @@
 
 # **AnonymousProxyLandingPage**
 
-Final Module 1 exercise of the Adalab Digital Frontend Development Bootcamp.
+Module 1 final project of the Adalab Digital Frontend Development Bootcamp.
 
 This is a responsive landing page developed with [<img src = "https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">](https://html.spec.whatwg.org/) [<img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white">](https://www.w3.org/Style/CSS/) and [<img src="https://img.shields.io/badge/-SASS-cc6699?style=flat&logo=sass&logoColor=ffffff">](https://sass-lang.com/)
 
