@@ -46,10 +46,10 @@ git push
 
 4. Project **[URL](https://anaguerraabaroa.github.io/AnonymousProxyLandingPage/)** is also available on GitHub Pages.
 
-## **Exercise development requirements**
+## **Exercise features**
 
 - Responsive web design for mobile, tablet and desktop devices
-- Fixed header navigation menu. It is a fake link not a real menu
+- Fixed header navigation menu with fake links
 - Full screen hero image designed with flexbox
 - Tips section designed with flexbox or CSS grid
 - Articles section designed with CSS grid
